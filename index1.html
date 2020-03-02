@@ -2,53 +2,135 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        
+        <script src="javascript/page.js" defer></script>
+        
         <title>Yi Lyu</title>
     </head>
 
     <body>
-
-        <header>
-            <h2 class="font_3">Yi Lyu</h2>
-            <p class="font_2">
-                junior applied math student, programmer, photographer
-            </p>
-
-        </header>
         <main>
-            <!-- Introduction -->
-            <div id="introduction">
-                <h3 class="font_4">A little about me</h3>
-                <p>
-                    Hello! I am Yi Lyu, a third year Applied Mathematics student at University of California, Los Angeles.
-                </p>
-            </div>
+            <div id="page">
+                <section id="emptyspace"></section>
+                <!-- Introduction -->
+                <section id="introduction">
+                    <div class="container" id="heading_name">
+                        <div class="font_3" id="name"> Yi Lyu <span class="font_2" style="font-weight: bold;">(吕熠)</span> </div>
+                        <div class="font_3" id="tags">I am </div>
+                        <div class="font_1" id="subtitle">B.S. Applied Mathematics @ UCLA</div>
+                        <div class="font_1" id="description">Data Analyzer, Programmer, Photographer</div>
+                        <div id="documents" class="font_1">
+                            <a class="btn btn-light" href="files/Yi_Lyu_CV.pdf" role="button" target="_blank">Resume</a>
+                            <a class="btn btn-light" onclick="location.href='mailto:marcolyu@g.ucla.edu';">Email</a>
+                            <a class="btn btn-light" href="https://www.linkedin.com/in/yi-lyu-3849b2169/" role="button" target="_blank">Linkedin</a>
+                            <a class="btn btn-light" href="https://github.com/MarcoYLyu" role="button" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </section>
 
-            <div id="work_experience">
-                <h3 class="font_4">Work Experience</h3>
-                <p>
-                    Here is the work experience.
-                </p>
-            </div>
+                <section id="content">
+                    <div class="container">
+                        <!-- About -->
+                        <div id="about">
+                            <div id="photo">
+                                <figure>
+                                    <img src="files/me.jpg" height="300px">
+                                </figure>
+                            </div>
+                            <h3 class="font_4">About</h3>
+                            <p class="font_1">
+                                Hello! I am Yi Lyu, a third year <span class="bold">Applied Mathematics</span> student at University of California, Los Angeles (UCLA) with a minor in <span class="bold">Statistics</span> and a <span class="bold">Specialization in Computing</span>. I am currently a learning assistant at UCLA.
+                            </p>
 
-            <div id="projects">
-                <h3 class="projects">Projects</h3>
-                <p>
-                    Here are the projects I have.
-                </p>
-            </div>
+                            <p class="font_1">
+                                Contact me for more information via <a href="mailto:marcolyu@g.ucla.edu" target="_top">email</a>.
+                            </p>
+                        </div>
+                
+                        <div id="work_experience">
+                            <h3 class="font_4">Work Experience</h3>
+                            <p class="font_1">
+                                Here is the work experience.
+                            </p>
+                        </div>
+                
+                        <div id="projects">
+                            <h3 class="font_4">Projects</h3>
+                            <p class="font_1">
+                                Here are the projects I have.
+                            </p>
+                        </div>
+            
+                        <div id="course_work" class="font_1">
+                            <h3 class="font_4">Course Work</h3>
+                            <p class="font_1">
+                                Below are the courses I am taking or have taken.
+                            </p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th><span class="font_3">Mathematics</span></th>
+                                        <th><span class="font_3">Computer Science</span></th>
+                                        <th><span class="font_3">Statistics</span></th>
+                                    </tr>
+                                </thead>
 
-            <div id="course_work">
-                <h3 class="font_4">Course Work</h3>
-                <p>
-                    Here are the courses I've taken.
-                </p>
+                                <tbody>
+                                    <tr>
+                                        <th>Math 115A: Linear Algebra</th>
+                                        <th>ECS 010: Introduction to Programming (Python)</th>
+                                        <th>STA 013: Elementary Statistics</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 115B: Linear Algebra</th>
+                                        <th>ECS 020: Discrete Mathematics for CS</th>
+                                        <th>STA 131A: Probability Theory</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 54: Linear Algebra and Differential Equation</th>
+                                        <th>ECS 030: Programming and Problem Solving (C)</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 180: Graph Theory</th>
+                                        <th>ECS 040: Software Engineering and Object-Oriented Programming (C++)</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 151A: Numerical Analysis</th>
+                                        <th>ECS 050: Machine Dependent Programming</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 116: Mathematical Cryptography</th>
+                                        <th>CS 61BL: Data Structures and Advanced Programming</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 131A: Real Analysis</th>
+                                        <th>PIC 40A: Programming for the Internet</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 114L: Mathematical Logic</th>
+                                        <th>ECS 122A: Algorithm Design</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Math 132: Complex Analysis for Application</th>
+                                        <th>ENG 002: Creativity and Entrepreneurship for Engineers</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
-
-        <footer>
-            <div id="contact_info">
-                Here is my contact info.
-            </div>
-        </footer>
     </body>
 </html>
