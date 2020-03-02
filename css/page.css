@@ -1,12 +1,10 @@
 html, #main {
     position: relative;
     color: rgb(85, 85, 85);
-    background-color: white;
 }
 
 #emptyspace {
     height: 150px;
-    background-color: white;
 }
 
 #introduction {
@@ -17,6 +15,7 @@ html, #main {
 #name {
     font-size: 90px;
     margin-top: 5px;
+
 }
 
 #tags {
@@ -47,17 +46,30 @@ html, #main {
     position: absolute;
     background-color: white;
     width: 100%;
-    padding: 30px;
     top: 470px;
 }
 
-h3 {
+#about, #projects, #work_experience, #course_work{
+    padding-top: 30px;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(255, 222, 122);
+    padding-left: 88px;
+    padding-right: 88px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#subtitle, #description, p, h3 {
     color: rgb(85, 85, 85);
 }
 
 p {
     font-size: 20px;
-    color: rgb(85, 85, 85);
 }
 
 #photo {
@@ -68,6 +80,7 @@ p {
 
 #course_work {
     font-size: 18px;
+    padding-bottom: 30px;
 }
 
 th, td {
