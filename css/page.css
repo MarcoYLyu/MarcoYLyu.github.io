@@ -4,11 +4,12 @@ html, #main {
 }
 
 #emptyspace {
-    height: 150px;
+    height: 260px;
 }
 
 #introduction {
     position: absolute;
+    text-align: center;
     width: 100%;
 }
 
@@ -46,13 +47,21 @@ html, #main {
     position: absolute;
     background-color: white;
     width: 100%;
-    top: 470px;
+    top: 580px;
 }
 
-#about, #projects, #work_experience, #course_work{
+#about, #skills, #projects, #work_experience, #course_work{
     padding-top: 30px;
     margin-left: 88px;
     margin-right: 88px;
+}
+
+#title {
+    font-size: 20px;
+}
+#nokia {
+    float: left;
+    height: 80px;
 }
 
 #footer {
