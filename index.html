@@ -1,12 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8"/>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        
+        <script src="javascript/page.js" defer></script>
+        
+        <title>Yi Lyu</title>
     </head>
 
     <body>
-        <p>
-            The website is currently under construction. Please check back later.
-        </p>
+        <main>
+            <div id="page">
+                <section id="emptyspace"></section>
+                <!-- Introduction -->
+                <section id="introduction">
+                    <div class="container" id="heading_name">
+                        <div class="font_3" id="name"> Yi Lyu </div>
+                        <div class="font_3" id="tags"></div>
+                        <div class="font_1" id="subtitle">B.S. Applied Mathematics @ UCLA</div>
+                        <div class="font_1" id="description">Data Analyzer, Programmer, Photographer</div>
+                        <div id="documents" class="font_1">
+                            <a class="btn btn-light" href="files/Yi_Lyu_CV.pdf" role="button" target="_blank">Resume</a>
+                            <a class="btn btn-light" onclick="location.href='mailto:marcolyu@g.ucla.edu';">Email</a>
+                            <a class="btn btn-light" href="https://www.linkedin.com/in/yi-lyu-3849b2169/" role="button" target="_blank">Linkedin</a>
+                            <a class="btn btn-light" href="https://github.com/MarcoYLyu" role="button" target="_blank">Github</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="content">
+                        <!-- About -->
+                        <hr>
+                        <div class="container">
+                            <div id="about">
+                                <div id="photo">
+                                    <!--
+                                    <figure>
+                                        <img src="files/me.jpg" height="300px">
+                                    </figure>
+                                    -->
+                                </div>
+                                <h3 class="font_4">About</h3>
+                                <p class="font_1">
+                                    Hello! I am Yi Lyu, a third year Chinese student majoring in <span class="bold">Applied Mathematics</span>, along with a minor in <span class="bold">Statistics</span> and a <span class="bold">Specialization in Computing</span>, at University of California, Los Angeles (UCLA). I am currently a learning assistant at UCLA.
+                                </p>
+
+                                <p class="font_1">
+                                    I am interested in machine learning and database structures, Elasticsearch and NoSQL in particular.
+                                </p>
+
+                                <p class="font_1">
+                                    <a href="mailto:marcolyu@g.ucla.edu" target="_top">Contact me</a> for more information.
+                                </p>
+                            </div>
+
+                            <div id="skills">
+                                <h3 class="font_4">Skills</h3>
+                                <div class="Concrete_skills">
+                                    <hr>
+                                    <h5 class="font_4">Concrete Skills</h5>
+                                    <p class="font_1">
+                                        Python, C/C++, Javascript, Java, PHP, SQL, Ruby, Elastic Stack, Adobe Photoshop.
+                                    </p>
+                                </div>
+                                <div class="Soft_skills">
+                                    <hr>
+                                    <h5 class="font_4">Soft Skills</h5>
+                                    <p class="font_1">
+                                        Resourceful, Motivated, Responsible, Approachable, Creative, Organized, etc...
+                                    </p>
+                                </div>
+                            </div>
+                    
+                            <div id="work_experience">
+                                <h3 class="font_4">Work Experience</h3>
+                                <div class="font_4" id="title">Software Engineering Intern (Summer 2019)</div>
+                                <img id="nokia" src="files/nsb-logo.png">
+                                <p class="font_1">
+                                    I worked on a testing automation project for a 5G project at Nokia Shanghai Bell during the summer of 2019. I built a new log management system with the Elastic Stack across multiple servers to handle thousands of data requests, which had already been used by more than 70 software engineers for code coverage analysis. I also implmented pipelines for the extraction and transmission of code coverage information and analyzed it in Kibana. In addition, I implemented exception handlers and wrote unit tests in a 5G-network project.
+                                </p>
+                                
+                            </div>
+                            <div id="projects">
+                                <h3 class="font_4">Projects</h3>
+                                <p class="font_1">
+                                    Here are the projects I have.
+                                </p>
+                            </div>
+                
+                            <div id="course_work" class="font_1">
+                                <h3 class="font_4">Course Work</h3>
+                                <p class="font_1">
+                                    Below are the courses I am taking or have taken.
+                                </p>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th><span class="font_3 bold">Mathematics</span></th>
+                                            <th><span class="font_3 bold">Computer Science</span></th>
+                                            <th><span class="font_3 bold">Statistics</span></th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody id="course_list">
+                                        <tr>
+                                            <th>Math 115A: Linear Algebra</th>
+                                            <th>ECS 010: Introduction to Programming (Python)</th>
+                                            <th>STA 013: Elementary Statistics</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 115B: Linear Algebra</th>
+                                            <th>ECS 020: Discrete Mathematics for CS</th>
+                                            <th>STA 131A: Probability Theory</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 54: Linear Algebra and Differential Equation</th>
+                                            <th>ECS 030: Programming and Problem Solving (C)</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 180: Graph Theory</th>
+                                            <th>ECS 040: Software Engineering and Object-Oriented Programming (C++)</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 151A: Numerical Analysis</th>
+                                            <th>ECS 050: Machine Dependent Programming (Intel X86)</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 116: Mathematical Cryptography</th>
+                                            <th>CS 61BL: Data Structures and Advanced Programming (Java)</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 131A: Real Analysis</th>
+                                            <th>PIC 40A: Programming for the Internet</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 114L: Mathematical Logic</th>
+                                            <th>ECS 122A: Algorithm Design</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Math 132: Complex Analysis for Application</th>
+                                            <th>ENG 002: Creativity and Entrepreneurship for Engineers</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="footer" class="font_1">
+                            <h4>Contact Info:</h4>
+                            <b>Email:</b> marcolyu@g.ucla.edu <br>
+                            <b>Phone:</b> (530)-760-9719
+                        </div>
+                </section>
+            </div>
+        </main>
     </body>
 </html>

@@ -4,7 +4,7 @@ html, #main {
 }
 
 #emptyspace {
-    height: 260px;
+    height: 300px;
 }
 
 #introduction {
@@ -14,7 +14,7 @@ html, #main {
 }
 
 #name {
-    font-size: 90px;
+    font-size: 100px;
     margin-top: 5px;
 
 }
@@ -47,7 +47,7 @@ html, #main {
     position: absolute;
     background-color: white;
     width: 100%;
-    top: 580px;
+    top: 650px;
 }
 
 #about, #skills, #projects, #work_experience, #course_work{
@@ -61,7 +61,7 @@ html, #main {
 }
 #nokia {
     float: left;
-    height: 80px;
+    height: 60px;
 }
 
 #footer {
@@ -78,7 +78,7 @@ html, #main {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #photo {

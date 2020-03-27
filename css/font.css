@@ -18,11 +18,6 @@
     src: url("path/Brandon_reg.otf") format("opentype");
 }
 
-@font-face {
-    font-family: kaishu;
-    src: url("path/kaishu.ttf") format("opentype");
-}
-
 .font_3 {
     font-family: piedpiper, orig_gothambold, Helvetica, sans-serif;
 }
@@ -33,8 +28,4 @@
 
 .font_1 {
     font-family: brandon_regular;
-}
-
-.font_2 {
-    font-family: kaishu;
 }

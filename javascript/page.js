@@ -13,7 +13,11 @@ function changeTag() {
     let tag = createTag(tagIndex);
     $(document).ready(function() {
         $("#tag").fadeOut("slow", function() {
-            myTag.replaceChild(tag, oldTag);
+            if (oldTag) {
+                myTag.replaceChild(tag, oldTag);
+            } else {
+                myTag.appendChild(tag);
+            }
         }).fadeIn("slow");
     });
 }
@@ -22,7 +26,7 @@ function createTag(index) {
     let tag = document.createElement("span");
     tag.id = "tag";
     tag.class = "bold";
-    tag.appendChild(document.createTextNode(tags[tagIndex]));
+    tag.appendChild(document.createTextNode("I am " + tags[tagIndex]));
     return tag;
 }
 
