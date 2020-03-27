@@ -100,11 +100,14 @@ th, td {
 
 @media screen and (max-width: 480px) {
     #course_work {
-        background-color: red;
         display: none;
     }
 
     .container {
         width: 480px;
+        margin: 0px;
+        border-color: red;
+        background-color: yellow;
+        padding: 0px;
     }
 }
