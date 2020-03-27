@@ -97,3 +97,10 @@ th, td {
     padding-left: 2.5px;
     padding-right: 2.5px
 }
+
+@media screen and (max-width: 480px) {
+    #course_work {
+        background-color: red;
+        display: none;
+    }
+}
