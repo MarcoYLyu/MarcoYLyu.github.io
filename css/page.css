@@ -103,4 +103,13 @@ th, td {
         background-color: red;
         display: none;
     }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 0;
+    }
 }

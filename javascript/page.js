@@ -26,7 +26,7 @@ function createTag(index) {
     let tag = document.createElement("span");
     tag.id = "tag";
     tag.class = "bold";
-    tag.appendChild(document.createTextNode("I am " + tags[tagIndex]));
+    tag.appendChild(document.createTextNode(tags[tagIndex]));
     return tag;
 }
 
