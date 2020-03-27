@@ -103,11 +103,12 @@ th, td {
         display: none;
     }
 
-    .container {
-        width: 480px;
-        margin: 0px;
-        border-color: red;
-        background-color: yellow;
-        padding: 0px;
+    #about, #skills, #projects, #work_experience, #course_work {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #nokia {
+        display: none;
     }
 }
