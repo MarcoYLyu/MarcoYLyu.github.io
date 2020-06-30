@@ -219,13 +219,9 @@ th, td {
         font-size: 20px;
         text-decoration: none;
         margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
         margin-bottom: 20px;
         border-radius: 100%;
-    }
-
-    .fa-envelope, .fa-phone-square {
-        display: none;
     }
 }
