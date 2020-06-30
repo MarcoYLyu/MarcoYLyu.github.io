@@ -131,6 +131,10 @@ a:link, a:hover, a:visited {
     padding-bottom: 30px;
 }
 
+#info {
+    text-align: center;
+}
+
 th, td {
     color: rgb(85, 85, 85);
     padding-left: 2.5px;
@@ -223,5 +227,9 @@ th, td {
         margin-right: 20px;
         margin-bottom: 20px;
         border-radius: 100%;
+    }
+
+    .fa-envelope, .fa-phone-square {
+        display: none;
     }
 }
