@@ -49,9 +49,8 @@ html, #main {
 }
 
 #contact {
+    text-align: center;
     padding-top: 30px;
-    padding-left: 290px;
-    padding-right: 290px;
 }
 
 #content {
