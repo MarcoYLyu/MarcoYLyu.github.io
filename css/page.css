@@ -3,16 +3,22 @@ html, #main {
     color: rgb(85, 85, 85);
 }
 
+.mobile {
+    display: none;
+}
+
 #emptyspace {
     height: 350px;
-    background-color: plum;
 }
 
 #introduction {
     position: absolute;
     text-align: center;
     width: 100%;
-    background-color: powderblue;
+}
+
+#emptyspace, #introduction {
+    background-color: #003262;
 }
 
 #documents {
@@ -28,7 +34,7 @@ html, #main {
     font-size: 24px;
 }
 
-#subtitle, #description {
+#subtitle{
     font-size: 20px;
     padding-bottom: 5px;
 }
@@ -40,12 +46,7 @@ html, #main {
 
 .bold {
     font-weight: bold;
-    color: rgb(235, 205, 11);
-}
-
-#description {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    color: #c4820f;
 }
 
 #content {
@@ -53,14 +54,17 @@ html, #main {
     background-color: white;
     width: 100%;
     top: 700px;
-    background-color: lavender;
     margin-top: 0px;
 }
 
-#about, #skills, #projects, #work_experience, #course_work{
+#about, #projects, #work_experience{
     padding-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+pre.prettyprint {
+    border: none !important;
 }
 
 #title {
@@ -73,19 +77,32 @@ html, #main {
 
 #footer {
     text-align: center;
-    background-color: rgb(255, 222, 122);
+    background-color: #003262;
     padding-left: 88px;
     padding-right: 88px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#subtitle, #description, p, h3 {
+#name, #tag, #subtitle, #description{
+    color: whitesmoke;
+    /*color: rgb(85, 85, 85);*/
+}
+
+#footer {
+    color: whitesmoke;
+}
+
+p, h2 {
     color: rgb(85, 85, 85);
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
+}
+
+h2 {
+    text-align: center;
 }
 
 #photo {
@@ -110,12 +127,21 @@ th, td {
         display: none;
     }
 
-    #about, #skills, #projects, #work_experience, #course_work {
+    #about, #projects, #work_experience{
+        text-align: center;
         margin-left: 0px;
         margin-right: 0px;
     }
 
     #nokia {
         display: none;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .mobile {
+        display: initial;
     }
 }

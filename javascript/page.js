@@ -1,6 +1,9 @@
-const tags = ["Mathematics of Computation", "Data Analysis", "Software Engineering"];
+const tags = ["Math of Computation", "Data Analysis", "Software Engineering"];
 let tagIndex = 0;
 let standardHeight = 1080.0;
+let emptyHeight = 350;
+let docPadBottom = 50;
+let contentTop = 700;
 
 function changeTag() {
     let myTag = document.getElementById("tags");
@@ -32,14 +35,14 @@ function createTag(index) {
 }
 
 function adjustIntro() {
-    let height = screen.height;
+    let height = window.innerHeight;
     let ratio = height / standardHeight;
-    let docPtr = document.getElementById("documents");
     let emptyspacePtr = document.getElementById("emptyspace");
     let contentPtr = document.getElementById("content");
-    emptyspacePtr["height"] *= ratio;
-    docPtr["padding-bottom"] *= ratio;
-    contentPtr["top"] *= ratio;
+    newHeight = emptyHeight * ratio;
+    difference = newHeight - emptyHeight;
+    emptyspacePtr.setAttribute("style", "height:" + emptyHeight * ratio.toString() + "px");
+    contentPtr.setAttribute("style", "top:" + (contentTop + difference).toString() + "px");
 }
 
 (function() {
