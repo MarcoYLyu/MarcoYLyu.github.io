@@ -18,8 +18,8 @@ html, #main {
 }
 
 #emptyspace, #introduction {
-    background-color: #365168;
-    
+    background-image: url('../files/background.jpg');
+    /*background-color: #365168;*/
     /*#003262;*/
 }
 
@@ -49,7 +49,9 @@ html, #main {
 }
 
 #contact {
-    padding-left: 300px;
+    padding-top: 30px;
+    padding-left: 290px;
+    padding-right: 290px;
 }
 
 #content {
@@ -104,7 +106,7 @@ p {
     font-size: 19px;
 }
 
-h2 {
+h2{
     text-align: center;
 }
 
@@ -204,6 +206,8 @@ th, td {
     }
 
     #contact {
-        padding-left: 30px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
