@@ -48,6 +48,10 @@ html, #main {
     color: #c4820f;
 }
 
+#contact {
+    padding-left: 300px;
+}
+
 #content {
     position: absolute;
     background-color: white;
@@ -71,7 +75,7 @@ pre.prettyprint {
 }
 #nokia {
     float: left;
-    height: 60px;
+    height: 80px;
 }
 
 #footer {
@@ -104,8 +108,15 @@ h2 {
     text-align: center;
 }
 
-#footer a:link, #footer a:hover, #footer a:visited, #footer a:active {
-    color: white;
+a:link, a:hover, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.fa:link, .fa:visited {
+    color: #003262;
+    pointer-events: initial;
 }
 
 #photo {
@@ -123,6 +134,47 @@ th, td {
     color: rgb(85, 85, 85);
     padding-left: 2.5px;
     padding-right: 2.5px
+}
+
+.fa {
+    padding: 15px;
+}
+
+#documents .fa {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 90%;
+}
+
+.fa-github {
+    background-color: white;
+}
+
+.fa-github:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.fa-linkedin {
+    background-color: white;
+}
+
+.fa-linkedin:hover {
+    background-color: #007bb5;
+    color: whitesmoke;
+}
+
+.fa-file-pdf-o {
+    background-color: white;
+}
+
+.fa-file-pdf-o:hover {
+    background-color: #ad3e52;
+    color: whitesmoke;
 }
 
 @media screen and (max-width: 480px) {
@@ -149,5 +201,9 @@ th, td {
 
     #documents {
         font-size: 14px;
+    }
+
+    #contact {
+        padding-left: 30px;
     }
 }
