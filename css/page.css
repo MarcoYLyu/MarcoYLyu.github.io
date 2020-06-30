@@ -18,7 +18,9 @@ html, #main {
 }
 
 #emptyspace, #introduction {
-    background-color: #003262;
+    background-color: #365168;
+    
+    /*#003262;*/
 }
 
 #documents {
@@ -37,9 +39,6 @@ html, #main {
 #subtitle{
     font-size: 20px;
     padding-bottom: 5px;
-}
-
-#subtitle {
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -91,6 +90,7 @@ pre.prettyprint {
 
 #footer {
     color: whitesmoke;
+    padding-top: 10px;
 }
 
 p, h2 {
@@ -143,5 +143,9 @@ th, td {
 
     .mobile {
         display: initial;
+    }
+
+    #documents {
+        font-size: 14px;
     }
 }

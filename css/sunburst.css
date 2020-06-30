@@ -4,10 +4,10 @@
 pre .str, code .str { color: green; } /* string  - green */
 pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
 pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
-pre .typ, code .typ { color: #89bdff; } /* type - light blue */
+pre .typ, code .typ { color: #404; } /* type - light blue */
 pre .lit, code .lit { color: hsl(207, 60%, 50%); } /* literal - blue */
 pre .pun, code .pun { color: #000; } /* punctuation - white */
-pre .pln, code .pln { color: #000; } /* plaintext - white */
+pre .pln, code .pln { color: #003262; } /* plaintext - white */
 pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
 pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
 pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
