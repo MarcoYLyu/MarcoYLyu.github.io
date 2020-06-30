@@ -131,10 +131,6 @@ a:link, a:hover, a:visited {
     padding-bottom: 30px;
 }
 
-#info {
-    text-align: center;
-}
-
 th, td {
     color: rgb(85, 85, 85);
     padding-left: 2.5px;
