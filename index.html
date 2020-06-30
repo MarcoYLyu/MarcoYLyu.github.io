@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="css/page.css">
         <link rel="stylesheet" type="text/css" href="css/font.css">
         <link rel="stylesheet" type="text/css" href="css/sunburst.css">
+        <link rel="stylesheet" type="text/css" href="css/all.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--BOOTSTRAP-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,7 +16,7 @@
         crossorigin="anonymous"></script>
         
         <script src="javascript/page.js" defer></script>
-        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script> -->
         <title>Yi Lyu</title>
     </head>
 
@@ -31,7 +32,6 @@
                         <div class="font_5" id="subtitle">B.S. Mathematics of Computation @ UCLA</div>
                         <div id="documents" class="font_5">
                             <a class="btn btn-light" href="files/Yi_Lyu_CV.pdf" role="button" target="_blank">Resume</a>
-                            <a class="btn btn-light" onclick="location.href='mailto:marcolyu@g.ucla.edu';" class="laptop">Email</a>
                             <a class="btn btn-light" href="https://www.linkedin.com/in/yi-lyu-3849b2169/" role="button" target="_blank">Linkedin</a>
                             <a class="btn btn-light" href="https://github.com/MarcoYLyu" role="button" target="_blank">Github</a>
                         </div>
@@ -80,20 +80,23 @@
                                     <div class="mobile">
                                     <!-- Inline Code -->
                                     <pre class="prettyprint lang-js">
-<span class="pln">{ </span>
-    "name": "Yi Lyu",
-    "School": "UCLA",
-    "Skills": [
-        "Python", "C/C++",
+<code>
+{
+    <span class="typ">"name"</span>: <span class="pln">"Yi Lyu"</span>,
+    <span class="typ">"School"</span>: <span class="pln">"UCLA"</span>,
+    <span class="typ">"Skills"</span>: [
+        <span class="pln">"Python", "C/C++",
         "Javascript", "Java",
         "PHP", "SQL", "Ruby",
-        "Elastic Stack"
+        "Elastic Stack"</span>
     ],
-    "contactInfo": {
-        "phone": "5307609719",
-        "email": "marcolyu@g.ucla.edu",
+    <span class="typ">"contactInfo"</span>: {
+        <span class="typ">"phone"</span>: <span class="pln">"5307609719"</span>,
+        <span class="typ">"email"</span>: <span class="pln">"marcolyu@g.ucla.edu"</span>,
+        <span class="typ">"linkedin"</span>: <span class="pln">"yi-lyu-3849b2169"</span>
     }
-<span class="pln">}</span>
+}
+</code>
                                     </pre>
                                     </div>
                                 </div>
@@ -115,9 +118,21 @@
                                 </p>
                             </div>
                         </div>
-                        <div id="footer" class="font_5">
-                            <h5>Contact Info:</h5>
-                            <b>EMAIL:</b> marcolyu@g.ucla.edu <br>
+                        <div id="footer" class="font_3">
+                            <div class="container">
+                            <h4>Contact Me:</h4>
+                            <br>
+                            <ul>
+                                <li>
+                                    Email: 
+                                    <a href="mailto:marcolyu@g.ucla.edu">marcolyu@g.ucla.edu</a>
+                                </li>
+                                <li>
+                                    Phone:
+                                    <a href="tel:530-760-9719">530-760-9719</a>
+                                </li>
+                            </ul>
+                            </div>
                         </div>
                 </section>
             </div>

@@ -75,7 +75,6 @@ pre.prettyprint {
 }
 
 #footer {
-    text-align: center;
     background-color: #003262;
     padding-left: 88px;
     padding-right: 88px;
@@ -103,6 +102,10 @@ p {
 
 h2 {
     text-align: center;
+}
+
+#footer a:link, #footer a:hover, #footer a:visited, #footer a:active {
+    color: white;
 }
 
 #photo {
