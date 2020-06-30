@@ -1,5 +1,6 @@
-const tags = ["an Applied Math student", "a Data Analyzer", "a Programmer"];
+const tags = ["Mathematics of Computation", "Data Analysis", "Software Engineering"];
 let tagIndex = 0;
+let standardHeight = 1080.0;
 
 function changeTag() {
     let myTag = document.getElementById("tags");
@@ -30,6 +31,17 @@ function createTag(index) {
     return tag;
 }
 
+function adjustIntro() {
+    let height = screen.height;
+    let ratio = height / standardHeight;
+    let docPtr = document.getElementById("documents");
+    let emptyspacePtr = document.getElementById("emptyspace");
+    let contentPtr = document.getElementById("content");
+    emptyspacePtr["height"] *= ratio;
+    docPtr["padding-bottom"] *= ratio;
+    contentPtr["top"] *= ratio;
+}
+
 (function() {
     tagIndex = Math.floor(Math.random() * tags.length);
     let myTag = document.getElementById("tags");
@@ -39,4 +51,5 @@ function createTag(index) {
         myTag.appendChild(tag);
         setInterval(changeTag, 3000);
     });
+    adjustIntro();
 })();
