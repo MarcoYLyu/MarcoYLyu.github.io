@@ -80,6 +80,7 @@ pre.prettyprint {
 }
 
 #footer {
+    text-align: center;
     background-color: #003262;
     color: whitesmoke;
     padding-left: 88px;
