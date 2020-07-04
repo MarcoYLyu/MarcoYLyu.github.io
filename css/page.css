@@ -80,7 +80,6 @@ pre.prettyprint {
 }
 
 #footer {
-    text-align: center;
     background-color: #003262;
     color: whitesmoke;
     padding-left: 88px;
@@ -187,6 +186,10 @@ th, td {
 .info {
     font-size: 16px;
     margin-top: 10px;
+}
+
+.container-fluid {
+    text-align: center;
 }
 
 @media screen and (max-width: 480px) {
