@@ -102,10 +102,6 @@ p {
     font-size: 19px;
 }
 
-h2{
-    text-align: center;
-}
-
 a:link, a:hover, a:visited {
     color: whitesmoke;
     text-decoration: none;
@@ -183,8 +179,12 @@ th, td {
     margin: auto;
 }
 
-.container-fluid {
-    text-align: center;
+h2, h4, .info {
+    text-align: inherit;
+}
+
+.info {
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -239,9 +239,5 @@ th, td {
     
     .fa-github, .fa-github:hover, .fa-linkedin, .fa-linkedin:hover, .fa-file-pdf-o, .fa-file-pdf-o:hover {
         background-color: transparent;
-    }
-
-    .container-fluid {
-        text-align: center;
     }
 }
