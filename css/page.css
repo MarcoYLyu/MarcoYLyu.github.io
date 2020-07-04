@@ -81,20 +81,17 @@ pre.prettyprint {
 
 #footer {
     background-color: #003262;
+    color: whitesmoke;
     padding-left: 88px;
     padding-right: 88px;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 180px;
 }
 
 #name, #tag, #subtitle, #description{
     color: whitesmoke;
     /*color: rgb(85, 85, 85);*/
-}
-
-#footer {
-    color: whitesmoke;
-    padding-top: 10px;
 }
 
 p, h2 {
@@ -177,6 +174,18 @@ th, td {
 .fa-file-pdf-o:hover {
     background-color: #ad3e52;
     color: whitesmoke;
+}
+
+.line-border {
+    width: 70px;
+    height: 2px;
+    background: #808080;
+    margin: auto;
+}
+
+.info {
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 480px) {

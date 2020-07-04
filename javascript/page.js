@@ -1,9 +1,9 @@
 const tags = ["Math of Computation", "Data Analysis", "Software Engineering"];
 let tagIndex = 0;
 let standardHeight = 1080.0;
-let emptyHeight = 350;
+let emptyHeight = 280;
 let docPadBottom = 50;
-let contentTop = 700;
+let contentTop = 680;
 
 function changeTag() {
     let myTag = document.getElementById("tags");
