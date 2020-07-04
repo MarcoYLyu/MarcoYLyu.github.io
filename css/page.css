@@ -183,11 +183,6 @@ th, td {
     margin: auto;
 }
 
-.info {
-    font-size: 16px;
-    margin-top: 10px;
-}
-
 .container-fluid {
     text-align: center;
 }
@@ -244,5 +239,9 @@ th, td {
     
     .fa-github, .fa-github:hover, .fa-linkedin, .fa-linkedin:hover, .fa-file-pdf-o, .fa-file-pdf-o:hover {
         background-color: transparent;
+    }
+
+    .container-fluid {
+        text-align: center;
     }
 }
