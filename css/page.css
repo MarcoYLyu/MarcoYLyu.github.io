@@ -180,7 +180,7 @@ th, td {
 }
 
 h2, h4, .info {
-    text-align: inherit;
+    text-align: center;
 }
 
 .info {
@@ -239,5 +239,9 @@ h2, h4, .info {
     
     .fa-github, .fa-github:hover, .fa-linkedin, .fa-linkedin:hover, .fa-file-pdf-o, .fa-file-pdf-o:hover {
         background-color: transparent;
+    }
+
+    h2, h4, .info {
+        text-align: center;
     }
 }
