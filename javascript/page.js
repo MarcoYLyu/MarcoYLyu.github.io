@@ -55,7 +55,10 @@ function addBackground() {
 
     if (is_mobile) {
         let intro = document.getElementById("introduction");
-        intro.setAttribute("style", "background-image: url('../files/background.jpg')")
+        let footerItr = document.getElementById("footer");
+        console.log(footerItr);
+        footerItr.setAttribute("style", "background-color: black;");
+        intro.setAttribute("style", "background-image: url('../files/background.jpg');");
     } else {
         let footerItr = document.getElementById('fvideo');
         let videoItr = document.createElement('video');
