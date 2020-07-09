@@ -19,7 +19,7 @@ html, #main {
 }
 
 #emptyspace, #introduction {
-    /*background-image: url('../files/background.jpg');/*
+    /*background-image: url('../files/background.jpg');*/
     /*background-color: #365168;*/
     /*#003262;*/
 }
@@ -91,7 +91,7 @@ pre.prettyprint {
 }
 
 #footer {
-    background-color: rgb(21, 37, 24);
+    background-color: black;
     color: whitesmoke;
     padding-left: 88px;
     padding-right: 88px;

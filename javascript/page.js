@@ -4,6 +4,7 @@ let standardHeight = 1080.0;
 let emptyHeight = 280;
 let docPadBottom = 50;
 let contentTop = 680;
+let videosrc = "./files/background.mp4"
 
 function changeTag() {
     let myTag = document.getElementById("tags");
@@ -45,12 +46,35 @@ function adjustIntro() {
     contentPtr.setAttribute("style", "top:" + (contentTop + difference).toString() + "px");
 }
 
+function addBackground() {
+    let is_mobile = false;
+
+    if ($(".laptop").css("display") == "none") {
+        is_mobile = true;
+    }
+
+    if (is_mobile) {
+        let intro = document.getElementById("introduction");
+        intro.setAttribute("style", "background-image: url('../files/background.jpg')")
+    } else {
+        let footerItr = document.getElementById('fvideo');
+        let videoItr = document.createElement('video');
+        videoItr.setAttribute("class", "video-bg");
+        videoItr.setAttribute("autoplay", "autoplay");
+        videoItr.setAttribute('loop', 'loop');
+        videoItr.setAttribute('muted', 'muted');
+        videoItr.setAttribute('src', videosrc);
+        footerItr.appendChild(videoItr);
+    }
+}
+
 (function() {
     tagIndex = Math.floor(Math.random() * tags.length);
     let myTag = document.getElementById("tags");
     let tag = createTag(tagIndex);
 
     AOS.init({once: true,});
+    addBackground();
 
     $(document).ready(function() {
         myTag.appendChild(tag);
