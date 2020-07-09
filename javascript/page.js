@@ -56,16 +56,15 @@ function addBackground() {
     if (is_mobile) {
         let intro = document.getElementById("introduction");
         let footerItr = document.getElementById("footer");
-        console.log(footerItr);
         footerItr.setAttribute("style", "background-color: black;");
-        intro.setAttribute("style", "background-image: url('../files/background.jpg');");
+        intro.setAttribute("style", "background-image: url('./files/background.jpg');");
     } else {
         let footerItr = document.getElementById('fvideo');
         let videoItr = document.createElement('video');
         videoItr.setAttribute("class", "video-bg");
-        videoItr.setAttribute("autoplay", "autoplay");
-        videoItr.setAttribute('loop', 'loop');
-        videoItr.setAttribute('muted', 'muted');
+        videoItr.setAttribute("autoplay", "");
+        videoItr.setAttribute('loop', '');
+        videoItr.setAttribute('muted', '');
         videoItr.setAttribute('src', videosrc);
         footerItr.appendChild(videoItr);
     }
