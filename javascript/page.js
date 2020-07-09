@@ -50,6 +50,8 @@ function adjustIntro() {
     let myTag = document.getElementById("tags");
     let tag = createTag(tagIndex);
 
+    AOS.init({once: true,});
+
     $(document).ready(function() {
         myTag.appendChild(tag);
         setInterval(changeTag, 3000);
