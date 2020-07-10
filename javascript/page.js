@@ -75,7 +75,7 @@ function addBackground() {
     let myTag = document.getElementById("tags");
     let tag = createTag(tagIndex);
 
-    AOS.init({once: true,});
+    AOS.init({once: true, startEvent: 'load',});
     addBackground();
 
     $(document).ready(function() {
