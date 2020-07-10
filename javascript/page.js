@@ -65,6 +65,7 @@ function addBackground() {
         videoItr.setAttribute("autoplay", "");
         videoItr.setAttribute('loop', '');
         videoItr.setAttribute('muted', '');
+        videoItr.setAttribute('preload', '');
         videoItr.setAttribute('src', videosrc);
         footerItr.appendChild(videoItr);
     }
