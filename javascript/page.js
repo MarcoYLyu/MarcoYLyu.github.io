@@ -4,7 +4,7 @@ let standardHeight = 1080.0;
 let emptyHeight = 280;
 let docPadBottom = 50;
 let contentTop = 680;
-let videosrc = "./files/background.mp4"
+let videosrc = "./files/background-small.mp4"
 
 function changeTag() {
     let myTag = document.getElementById("tags");
@@ -59,11 +59,6 @@ function addBackground() {
         footerItr.setAttribute("style", "background-color: black;");
         intro.setAttribute("style", "background-image: url('./files/background.jpg');");
     } else {
-        let intro = document.getElementById("introduction");
-        let footerItr = document.getElementById("footer");
-        footerItr.setAttribute("style", "background-color: black;");
-        intro.setAttribute("style", "background-image: url('./files/background.jpg');");
-        /**
         let footerItr = document.getElementById('fvideo');
         let videoItr = document.createElement('video');
         videoItr.setAttribute("class", "video-bg");
@@ -73,7 +68,6 @@ function addBackground() {
         videoItr.setAttribute('preload', '');
         videoItr.setAttribute('src', videosrc);
         footerItr.appendChild(videoItr);
-        */
     }
 }
 
