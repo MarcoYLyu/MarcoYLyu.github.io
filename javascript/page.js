@@ -1,7 +1,7 @@
 const tags = ["Math of Computation", "Data Analysis", "Software Engineering"];
 let tagIndex = 0;
 let standardHeight = 1080.0;
-let emptyHeight = 280;
+let emptyHeight = 300;
 let docPadBottom = 50;
 let contentTop = 680;
 let videosrc = "./files/background-small.mp4"
@@ -56,12 +56,12 @@ function addBackground() {
     if (is_mobile) {
         let intro = document.getElementById("introduction");
         let footerItr = document.getElementById("footer");
-        footerItr.setAttribute("style", "background-color: black;");
+        footerItr.setAttribute("style", "background-color: rgb(2, 17, 58);");
         intro.setAttribute("style", "background-image: url('./files/background.jpg');");
     } else {
         let intro = document.getElementById("introduction");
         let footerItr = document.getElementById("footer");
-        footerItr.setAttribute("style", "background-color: black;");
+        footerItr.setAttribute("style", "background-color: rgb(2, 17, 58);");
         intro.setAttribute("style", "background-image: url('./files/background.jpg');");
         /**
         let footerItr = document.getElementById('fvideo');

@@ -77,15 +77,21 @@ pre.prettyprint {
 }
 
 #title {
-    font-size: 20px;
+    font-size: 24px;
 }
 #nokia {
     float: left;
     height: 80px;
 }
 
+#videogame, #map, #crypto, #git {
+    float: right;
+    height: 100px;
+    margin-left: 30px;
+}
+
 #footer {
-    background-color: rgb(21, 37, 24);
+    background-color: rgb(2, 17, 58);
     color: whitesmoke;
     padding-left: auto;
     padding-right: auto;
@@ -110,7 +116,6 @@ p {
 a:link, a:hover, a:visited {
     color: whitesmoke;
     text-decoration: none;
-    pointer-events: none;
 }
 
 .fa:link, .fa:visited {
@@ -202,7 +207,7 @@ h2, h4, .info {
         margin-right: 0px;
     }
 
-    #nokia {
+    #nokia, #videogame {
         display: none;
     }
 
