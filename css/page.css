@@ -72,6 +72,10 @@ video {
     margin-right: 100px;
 }
 
+#projects {
+    margin-bottom: 80px;
+}
+
 pre.prettyprint {
     border: none !important;
 }
@@ -205,6 +209,10 @@ h2, h4, .info {
     #about, #projects, #work_experience{
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    #projects {
+        margin-bottom: 50px;
     }
 
     #nokia, #videogame, #git, #crypto, #map {
