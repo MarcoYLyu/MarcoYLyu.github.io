@@ -49,32 +49,16 @@ function adjustIntro() {
 function addBackground() {
     let is_mobile = false;
 
+    /*
     if ($(".laptop").css("display") == "none") {
         is_mobile = true;
     }
+    */
 
-    if (is_mobile) {
-        let intro = document.getElementById("introduction");
-        let footerItr = document.getElementById("footer");
-        footerItr.setAttribute("style", "background-color: rgb(2, 17, 58);");
-        intro.setAttribute("style", "background-image: url('./files/background.jpg');");
-    } else {
-        let intro = document.getElementById("introduction");
-        let footerItr = document.getElementById("footer");
-        footerItr.setAttribute("style", "background-color: rgb(2, 17, 58);");
-        intro.setAttribute("style", "background-image: url('./files/background.jpg');");
-        /**
-        let footerItr = document.getElementById('fvideo');
-        let videoItr = document.createElement('video');
-        videoItr.setAttribute("class", "video-bg");
-        videoItr.setAttribute("autoplay", "");
-        videoItr.setAttribute('loop', '');
-        videoItr.setAttribute('muted', '');
-        videoItr.setAttribute('preload', '');
-        videoItr.setAttribute('src', videosrc);
-        footerItr.appendChild(videoItr);
-        */
-    }
+    let intro = document.getElementById("introduction");
+    let footerItr = document.getElementById("footer");
+    footerItr.setAttribute("style", "background-color: rgb(2, 17, 58);");
+    intro.setAttribute("style", "background-image: url('./files/background.jpg');");
 }
 
 (function() {
