@@ -117,13 +117,14 @@ p {
     font-size: 19px;
 }
 
-a:link, a:hover, a:visited {
-    color: whitesmoke;
+a:link, a:visited, a:hover {
+    font-weight: bold;
+    color: #c4820f;
     text-decoration: none;
 }
 
 .fa:link, .fa:visited {
-    color: #003262;
+    color: inherit;
     pointer-events: initial;
 }
 
