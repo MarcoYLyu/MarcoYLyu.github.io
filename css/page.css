@@ -119,8 +119,12 @@ p {
 
 a:link, a:visited, a:hover {
     font-weight: bold;
-    color: #c4820f !important;
+    color: #c4820f;
     text-decoration: none !important;
+}
+
+.no-color-change {
+    color: #c4820f !important;
 }
 
 .fa:link, .fa:visited {
