@@ -88,6 +88,12 @@ pre.prettyprint {
     height: 80px;
 }
 
+#backbandaid {
+    float: left;
+    height: 100px;
+    padding: 20px;
+}
+
 #videogame, #map, #crypto, #git {
     float: right;
     height: 100px;
@@ -220,7 +226,7 @@ h2, h4, .info {
         margin-bottom: 50px;
     }
 
-    #nokia, #videogame, #git, #crypto, #map {
+    #nokia, #videogame, #git, #crypto, #map, #backbandaid {
         display: none;
     }
 
