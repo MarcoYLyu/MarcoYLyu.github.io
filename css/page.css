@@ -80,6 +80,10 @@ pre.prettyprint {
     border: none !important;
 }
 
+pre {
+    margin-bottom: 0px;
+}
+
 #title {
     font-size: 24px;
 }
@@ -236,6 +240,11 @@ h2, h4, .info {
 
     .mobile {
         display: initial;
+    }
+
+    pre {
+        margin-top: 0px !important;
+        padding: 0px !important;
     }
 
     #documents {

@@ -31,7 +31,7 @@
                 <div class="navigation">
                     <div class="navigation-container">
                         <div class="main-logo">
-                            <img class="logo_image" src="files/logowhite.png">
+                            <a href="#intro-anchor"><img class="mobile-no-show logo-image" src="files/logowhite.png"></a>
                         </div>
                     </div>
                     <div class="main-navigation">
@@ -40,8 +40,7 @@
                                 <a href="#intro-anchor"><li class="font-content-subtitle no-color-change">Home</li></a>
                                 <a href="#problem-anchor"><li class="font-content-subtitle no-color-change">Problem</li></a>
                                 <a href="#backbandaid-anchor"><li class="font-content-subtitle no-color-change">Back Bandaid</li></a>
-                                <a href="#fundraising-anchor"><li class="font-content-subtitle no-color-change">Fundaraising</li></a>
-                                <!--<a href="#contactus-anchor"><li class="font-content-subtitle no-color-change">Contact us</li></a> -->
+                                <a href="#fundraising-anchor"><li class="font-content-subtitle no-color-change">Fundraising</li></a>
                             </ul>
                         </div>
                     </div>
@@ -52,10 +51,7 @@
             <div class="wholepage">
                 <div id="intro-anchor"></div>
                 <section id="intro">
-                    <video autoplay muted loop id="backgroundvideo">
-                        <source src="files/backgroundworkers.mp4" type="video/mp4">
-                    </video>
-                    <section id="whitespace"></section>
+                    <div id="whitespace"></div>
                     <div class="intro">
                         <div class="intro-message">
                             <span class="font-title size1 color1" data-aos='zoom-in-up' data-aos-animation='1000' data-aos-delay='800'>Behold The Power Of Back Bandaid</span>
@@ -71,6 +67,9 @@
                 <section id="content">
                     <hr>
                     <div class="container-fluid">
+                        <video autoplay muted loop id="backgroundvideo">
+                            <source src="files/backgroundworkers.mp4" type="video/mp4">
+                        </video>
                         <div id="problem">
                             <h2 class="font-content-title size3 color2 section-title">
                                 The Problem
@@ -112,7 +111,7 @@
                                 We provide you with an easy, comfortable, and affordable solution to bad posture.
                             </p>
 
-                            <iframe class="youtube" width="825" height="465" src="https://www.youtube.com/embed/vpz13i2iNAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="youtube" src="https://www.youtube.com/embed/vpz13i2iNAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             <div class="steps">
                                 <div class="font-content-subtitle size4 color2">More Information? See Pitch Deck</div>
@@ -142,13 +141,14 @@
                         </div>
 
                         <div id="footer">
-                            <div id="contactus-anchor"></div>
                             <div class="container-fluid" id="contact">
-                                <img class="footer-logo" src="files/logowhite.png">
-                                <h4 class="font-description">CONTACT US</h4>
-                                <div class="line-border"></div>
-                                <div class="info font-content-subtitle size5">
-                                    qwerty@backbandaid.com
+                                <a href="#intro-anchor"><img class="footer-logo" src="files/logowhite.png"></a>
+                                <div class="mobile-no-show">
+                                    <h4 class="font-description">CONTACT US</h4>
+                                    <div class="line-border"></div>
+                                    <div class="info font-content-subtitle size5">
+                                        marcolyu@g.ucla.edu
+                                    </div>
                                 </div>
                             </div>
                         </div>
