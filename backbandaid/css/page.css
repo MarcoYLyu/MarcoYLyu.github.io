@@ -146,6 +146,10 @@ p {
     padding-top: 30px;
 }
 
+.footer-logo {
+    display: none;
+}
+
 .line-border {
     width: 100px;
     height: 2px;
@@ -198,7 +202,19 @@ a:link, a:visited, a:hover {
     #menu {
         float: none;
         text-align: center;
+        left: 0px;
         right: 0px;
+        padding-left: 0px;
+        margin: auto;
+    }
+
+    .footer-logo {
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        display: block;
     }
 }
 
@@ -218,11 +234,67 @@ a:link, a:visited, a:hover {
         border-radius: 100%;
     }
 
-    .fa:link, .fa:visited {
-        color: #;
+    #intro {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 150px;
     }
     
     .fa-github, .fa-github:hover, .fa-linkedin, .fa-linkedin:hover, .fa-file-pdf-o, .fa-file-pdf-o:hover {
         background-color: transparent;
+    }
+
+    #whitespace {
+        height: 200px;
+    }
+
+    .youtube {
+        width: 100%;
+    }
+
+    #fundraising-deck {
+        width: 100%;
+    }
+
+    .size1 {
+        font-size: 44px;
+    }
+    
+    .size2 {
+        font-size: 17px;
+    }
+    
+    .size3 {
+        font-size: 60px;
+    }
+    
+    .size4 {
+        font-size: 24px;
+    }
+    
+    .size5 {
+        font-size: 12px;
+    }
+    
+    .main-navigation li {
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .footer-logo {
+        position: absolute;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: 30px;
+        display: block;
+    }
+
+    #footer {
+        padding-bottom: 5px;
+        height: 120px;
     }
 }

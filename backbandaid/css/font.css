@@ -19,7 +19,7 @@
 }
 
 .font-title {
-    font-family: brandon_light, Helvetica, sans-serif;
+    font-family: brandon_light, brandon_regular, Helvetica, sans-serif;
 }
 
 .font-content-title {
@@ -35,4 +35,10 @@
 .font-content-subtitle {
     font-family: brandon_bold, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+@media (max-width: 764px) {
+    .font-description {
+        font-size: 16px;
+    }
 }
