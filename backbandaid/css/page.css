@@ -1,0 +1,228 @@
+.navigation {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    top: 0px;
+    z-index: 100;
+}
+
+.navigation-container {
+    position: relative;
+    width: 100%;
+    left: 150px;
+}
+
+.logo_image {
+    float: left;
+    height: 120px;
+    padding: 20px;
+}
+
+.menu-container {
+    display: block;
+}
+
+#menu {
+    scroll-behavior: smooth;
+    position: relative;
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    white-space: nowrap;
+    right: 150px;
+}
+
+.main-navigation li {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    margin: 10px;
+}
+
+main {
+    position: relative;
+}
+
+#intro {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 270px;
+}
+
+#backgroundvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 1000px;
+    z-index: -1;
+}
+
+#whitespace {
+    height: 400px;
+}
+
+.size1 {
+    font-size: 66px;
+}
+
+.size2 {
+    font-size: 26px;
+}
+
+.size3 {
+    font-size: 90px;
+}
+
+.size4 {
+    font-size: 36px;
+}
+
+.size5 {
+    font-size: 20px;
+}
+
+.color1 {
+    color: #FFEEBC
+}
+
+.color2 {
+    color: #555555;
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+#backbandaid {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #FADD7A;
+    margin-top: 60px;
+}
+
+.section-title {
+    padding-top: 30px;
+}
+
+.problem-image {
+    height: 200px;
+}
+
+p {
+    width: 50%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.youtube {
+    margin-bottom: 50px;
+}
+
+#footer {
+    background-color: black;
+    color: whitesmoke;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 180px;
+}
+
+#contact {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.line-border {
+    width: 100px;
+    height: 2px;
+    background: #808080;
+    margin: auto;
+}
+
+a:link, a:visited, a:hover {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.no-color-change {
+    color: white !important;
+}
+
+.fa:link, .fa:visited {
+    color: inherit;
+    pointer-events: initial;
+}
+
+.fa {
+    padding: 15px;
+}
+
+#documents .fa {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20%;
+}
+
+.fa-file-pdf-o {
+    background-color: #FADD7A;
+}
+
+.fa-file-pdf-o:hover {
+    background-color: #ad3e52;
+    color: whitesmoke;
+}
+
+@media (max-width: 1050px) {
+    .logo_image {
+        display: none;
+    }
+    #menu {
+        float: none;
+        text-align: center;
+        right: 0px;
+    }
+}
+
+@media (max-width: 764px) {
+    .fa {
+        padding: 0px;
+    }
+
+    #documents .fa {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        border-radius: 100%;
+    }
+
+    .fa:link, .fa:visited {
+        color: #;
+    }
+    
+    .fa-github, .fa-github:hover, .fa-linkedin, .fa-linkedin:hover, .fa-file-pdf-o, .fa-file-pdf-o:hover {
+        background-color: transparent;
+    }
+}

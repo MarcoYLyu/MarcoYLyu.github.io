@@ -1,0 +1,38 @@
+@font-face {
+    font-family: brandon_bold;
+    src: url("Brandon_bld.otf") format("opentype");
+}
+
+@font-face {
+    font-family: brandon_regular;
+    src: url("Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: brandon_light;
+    src: url("brandon_light.otf") format("opentype")
+}
+
+@font-face {
+    font-family: gotham_bold;
+    src: url("Gotham\ Bold.otf") format("opentype")
+}
+
+.font-title {
+    font-family: brandon_light, Helvetica, sans-serif;
+}
+
+.font-content-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.font-description {
+    font-family: gotham_bold, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.font-content-subtitle {
+    font-family: brandon_bold, Helvetica, sans-serif;
+    font-weight: bold;
+}
