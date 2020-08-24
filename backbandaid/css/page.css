@@ -297,4 +297,8 @@ a:link, a:visited, a:hover {
         padding-bottom: 5px;
         height: 120px;
     }
+
+    .problem-image {
+        display: none;
+    }
 }
