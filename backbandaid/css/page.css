@@ -134,6 +134,11 @@ p {
     margin-bottom: 50px;
 }
 
+.fundraising-description {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
 #footer {
     background-color: black;
     color: whitesmoke;
@@ -141,7 +146,7 @@ p {
     padding-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 180px;
+    height: 160px;
 }
 
 #contact {
