@@ -19,6 +19,12 @@
     padding: 20px;
 }
 
+.anchor {
+    display: block;
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
 .menu-container {
     display: block;
 }
@@ -57,7 +63,6 @@ main {
     position: fixed;
     top: 0;
     right: 0;
-    height: 1000px;
     z-index: -1;
 }
 
@@ -135,8 +140,8 @@ p {
 }
 
 .fundraising-description {
-    width: 40%;
-    margin-bottom: 40px;
+    width: 60%;
+    margin-bottom: 50px;
 }
 
 #footer {
@@ -204,7 +209,7 @@ a:link, a:visited, a:hover {
 }
 
 @media (max-width: 1050px) {
-    .mobile-no-show, .problem-image {
+    .mobile-no-show {
         display: none;
     }
     #menu {
@@ -234,6 +239,16 @@ a:link, a:visited, a:hover {
 
     .youtube {
         height: 400px;
+    }
+
+    .anchor {
+        display: block;
+        padding-top: 80px;
+        margin-top: -80px;
+    }
+
+    #backbandaid {
+        padding-top: 40px;
     }
 }
 
@@ -323,5 +338,114 @@ a:link, a:visited, a:hover {
 
     .youtube {
         height: 300px;
+    }
+
+    .anchor {
+        display: block;
+        padding-top: 40px;
+        margin-top: -40px;
+    }
+
+    #backbandaid {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fa {
+        padding: 0px;
+    }
+
+    #documents .fa {
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        border-radius: 100%;
+    }
+
+    #intro {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+    
+    .fa-github, .fa-github:hover, .fa-linkedin, .fa-linkedin:hover, .fa-file-pdf-o, .fa-file-pdf-o:hover {
+        background-color: transparent;
+    }
+
+    #whitespace {
+        height: 200px;
+    }
+
+    .youtube {
+        width: 90%;
+    }
+
+    #fundraising-deck {
+        width: 100%;
+    }
+
+    .size1 {
+        font-size: 44px;
+    }
+    
+    .size2 {
+        font-size: 17px;
+    }
+    
+    .size3 {
+        font-size: 50px;
+    }
+    
+    .size4 {
+        font-size: 24px;
+    }
+    
+    .size5 {
+        font-size: 12px;
+    }
+    
+    .main-navigation li {
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    .footer-logo {
+        position: relative;
+        margin: auto;
+        padding: auto;
+        height: 50px;
+        display: block;
+    }
+
+    #footer {
+        padding-bottom: 5px;
+        height: 120px;
+    }
+
+    #backgroundvideo {
+        height: 600px;
+    }
+
+    .youtube {
+        height: 300px;
+    }
+
+    .anchor {
+        display: block;
+        padding-top: 40px;
+        margin-top: -40px;
+    }
+
+    #backbandaid {
+        padding-top: 0px;
     }
 }
