@@ -98,7 +98,7 @@ pre {
     padding: 20px;
 }
 
-#videogame, #map, #crypto, #git {
+#videogame, #map, #crypto, #git, #game {
     float: right;
     height: 100px;
     margin-left: 30px;
