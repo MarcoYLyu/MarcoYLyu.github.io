@@ -1,38 +1,22 @@
-const tags = ["Math of Computation", "Data Analysis", "Software Engineering"];
+const tags = ["Computer Science", "Machine Learning", "Software Engineering"];
 let tagIndex = 0;
-let standardHeight = 1080.0;
-let emptyHeight = 300;
-let docPadBottom = 50;
-let contentTop = 680;
-let videosrc = "./files/background-small.mp4"
+
+const standardHeight = 1080.0;
+const emptyHeight = 300;
+const docPadBottom = 50;
+const contentTop = 680;
+const videosrc = "./files/background-small.mp4"
 
 function changeTag() {
-    let myTag = document.getElementById("tags");
-    let oldTag = document.getElementById("tag");
+    let tag = document.getElementById("tag");
 
-    ++tagIndex;
-    if (tagIndex === tags.length) {
-        tagIndex = 0;
-    }
+    tagIndex = (tagIndex + 1) % tags.length;
 
-    let tag = createTag(tagIndex);
     $(document).ready(function() {
         $("#tag").fadeOut("slow", function() {
-            if (oldTag) {
-                myTag.replaceChild(tag, oldTag);
-            } else {
-                myTag.appendChild(tag);
-            }
+            tag.innerHTML = tags[tagIndex];
         }).fadeIn("slow");
     });
-}
-
-function createTag(index) {
-    let tag = document.createElement("span");
-    tag.id = "tag";
-    tag.class = "bold";
-    tag.appendChild(document.createTextNode(tags[tagIndex]));
-    return tag;
 }
 
 function adjustIntro() {
@@ -47,9 +31,8 @@ function adjustIntro() {
 }
 
 function addBackground() {
-    let is_mobile = false;
-
     /*
+    let is_mobile = false;
     if ($(".laptop").css("display") == "none") {
         is_mobile = true;
     }
@@ -63,14 +46,11 @@ function addBackground() {
 
 (function() {
     tagIndex = Math.floor(Math.random() * tags.length);
-    let myTag = document.getElementById("tags");
-    let tag = createTag(tagIndex);
 
     AOS.init({once: true, startEvent: 'load',});
     addBackground();
 
-    $(document).ready(function() {
-        myTag.appendChild(tag);
+    $(document).ready(() => {
         setInterval(changeTag, 3000);
     });
     adjustIntro();
