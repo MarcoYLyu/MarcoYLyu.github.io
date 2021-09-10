@@ -87,9 +87,17 @@ pre {
 #title {
     font-size: 24px;
 }
+
 #nokia {
     float: left;
     height: 80px;
+}
+
+#emlab {
+    float: left;
+    height: 80px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 #backbandaid {
