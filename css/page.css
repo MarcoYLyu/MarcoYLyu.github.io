@@ -66,7 +66,7 @@ video {
     margin-top: 0px;
 }
 
-#about, #projects, #work_experience{
+#updates, #about, #projects, #work_experience{
     padding-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
@@ -229,7 +229,7 @@ h2, h4, .info {
         display: none;
     }
 
-    #about, #projects, #work_experience{
+    #updates, #about, #projects, #work_experience{
         margin-left: 0px;
         margin-right: 0px;
     }
